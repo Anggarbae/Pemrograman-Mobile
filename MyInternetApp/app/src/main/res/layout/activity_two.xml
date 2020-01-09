@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".twoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 2"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/vertical_activity"
+        android:layout_marginLeft="@dimen/horizontal_activity" />
+
+    <TextView
+        android:id="@+id/tv_received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginBottom="@dimen/vertical_activity"
+        android:layout_marginTop="@dimen/vertical_activity"
+        android:layout_marginLeft="@dimen/horizontal_activity"
+        android:layout_marginRight="@dimen/horizontal_activity"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+</LinearLayout>
